@@ -24,6 +24,6 @@ public class Exercicio {
 		System.out.println("Digite o Float");
 		float c = sc.nextFloat();
 		System.out.println("inteiro:"+a+"Long"+b+"float"+c);
-		
+		sc.close();/*fechamento do sc */
 	}
 }
