@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Exercicio {
+	
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Digite o Inteiro");
+		int a = sc.nextInt();
+		System.out.println("Digite o Long");
+		long b = sc.nextLong();
+		System.out.println("Digite o Float");
+		float c = sc.nextFloat();
+		System.out.println("inteiro:"+a+"Long"+b+"float"+c);
+		
+	}
+}
